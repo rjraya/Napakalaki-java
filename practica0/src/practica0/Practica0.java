@@ -21,8 +21,7 @@ public class Practica0 {
         String[] cadena = {"hola","mundo"};
         for(String cad : cadena){
             System.out.println(cad);
-            muajaajajajajaja
-                    Mr. black estuvo aqui
+            System.out.println("muajaajajajajaja Mr. black estuvo aqui");
         }
         
     }
