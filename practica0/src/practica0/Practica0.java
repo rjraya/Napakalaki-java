@@ -16,8 +16,13 @@ public class Practica0 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //print
-        System.out.println("Hola Mundo");
+        
+        //print básico   
+        String[] cadena = {"hola","mundo"};
+        for(String cad : cadena){
+            System.out.println(cad);
+        }
+        
     }
     
 }
