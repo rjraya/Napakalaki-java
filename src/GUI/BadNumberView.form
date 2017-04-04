@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jL_text" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jL_niveles" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jL_showlevels" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jL_visibles" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jL_showvisibles" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jL_hidden" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jL_showhidden" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jL_text" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jL_niveles" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jL_showlevels" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jL_visibles" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jL_showvisibles" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jL_hidden" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jL_showhidden" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jL_text">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/*Texto*/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_niveles">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Niveles:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_showlevels">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/*Lv*/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_visibles">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Visibles:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_showvisibles">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/*Vis*/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_hidden">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ocultos:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_showhidden">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/*Ocl*/"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

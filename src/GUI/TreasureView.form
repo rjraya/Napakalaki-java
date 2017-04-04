@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Events>
+    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="formMouseClicked"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jL_name" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jL_minbonus" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jL_showmin" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jL_maxbonus" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jL_showmax" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jL_type" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jL_showtype" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jL_goldcoins" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jL_showgoldcoins" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jL_name" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jL_minbonus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jL_showmin" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jL_maxbonus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jL_showmax" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jL_goldcoins" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jL_showgoldcoins" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jL_type" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jL_showtype" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="13" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jL_name">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/*Nombre/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_minbonus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bonus m&#xed;nimo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_showmin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/*Min*/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_maxbonus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bonus m&#xe1;ximo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_showmax">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/*Max*/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_type">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_showtype">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/*tipo*/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_goldcoins">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Piezas de oro:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_showgoldcoins">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/*Oro*/"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
